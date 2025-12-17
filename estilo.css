@@ -224,24 +224,3 @@ h2{
     grid-row: 7/9; grid-column: 4/5;
     margin-left: 60px;
     color: #CBF3F0;}
-
-
-
-
-
-@media screen and (max-width: 768px) {
-    body{
-        grid-template-rows: auto 500px 3000px 2500px 500px auto;
-    }
-    header{
-        height: 500px;
-         display:flex;
-    align-items: center;
-    grid-row: 0/1;
-    justify-content: space-around;
-    }
-    #produtos{
-        grid-template-rows: 8.25% 28.09% 8.76% 13.14% 28.09% 8.76% 5.04%;
-        grid-template-columns: 28px 60px 36.4px 60px 36.4px 60px 36.4px 60px 36.4px;
-    }
-}
