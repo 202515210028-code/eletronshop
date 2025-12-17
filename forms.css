@@ -3,3 +3,28 @@
     box-sizing: border-box;
     padding: 0px;
     font-family: sans-serif;}
+body{
+    background-color: #CBF3F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#titulo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#titulo2{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#formulario{
+    margin-top: 20px;
+    background-color: wheat;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.514);
+}

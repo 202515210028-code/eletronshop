@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <link href="forms.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário de Pesquisa</title>
 </head>
 <body>
+    <h1 id="titulo">Pesquisa de Campo</h1>
+    
+    <div id="formulario">
+        <h1 id="titulo2">Okay. Agora, vamos iniciar a Pesquisa...</h1>
+
+
+        <form action="Pesquisa.php" method="post">
+            <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" required><br><br>
+
+            <label for="email">Email:</label>
+            <h3 style="font-size: 12px;">Somente para enviar uma resposta ao seu formulário</h3>
+                <input type="email" id="email" name="email" required><br><br>
+
+            <label for="satisfacao">Nível de Satisfação com nossos produtos:</label>
+
+                <select id="satisfacao" name="satisfacao" required>
+                    <option value="">Selecione</option>
+                    <option value="muito_satisfeito">Muito Satisfeito</option>
+                    <option value="satisfeito">Satisfeito</option>
+                    <option value="neutro">Neutro</option>
+                    <option value="insatisfeito">Insatisfeito</option>
+                    <option value="muito_insatisfeito">Muito Insatisfeito</option>
+                </select><br><br>
+
+            <label type="text" for="comentarios">Comentários Adicionais:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+            <button style="margin: 20px; margin-top: 0">Enviar</button>
+        </form>
+    </div>
     
 </body>
 </html>
