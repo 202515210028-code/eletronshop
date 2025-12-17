@@ -224,3 +224,13 @@ h2{
     grid-row: 7/9; grid-column: 4/5;
     margin-left: 60px;
     color: #CBF3F0;}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    body{
+        grid-template-rows: auto 500px 3000px 2500px 500px auto;
+    }
+}
